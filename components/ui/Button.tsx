@@ -4,13 +4,13 @@ const Button = ({
   title,
   icon,
   position,
-  handleClick,
+  // handleClick,
   otherClasses,
 }: {
   title: string;
   icon: React.ReactNode;
   position: string;
-  handleClick?: () => void;
+  // handleClick?: () => void;
   otherClasses?: string;
 }) => {
   return (

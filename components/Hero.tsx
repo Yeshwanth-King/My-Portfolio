@@ -5,6 +5,9 @@ import Button from "./ui/Button";
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
+  // const click = () => {
+  //   console.log("Clicked");
+  // };
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -40,6 +43,7 @@ const Hero = () => {
               icon={<FaLocationArrow />}
               position="right"
               otherClasses="gap-3"
+              // handleClick={click}
             />
           </div>
         </div>
