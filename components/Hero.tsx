@@ -37,7 +37,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hey, I&apos;m Yeshwanth, a Full Stack Web Developer
           </p>
-          <div>
+          <a href="#About">
             <Button
               title="See my Projects"
               icon={<FaLocationArrow />}
@@ -45,7 +45,7 @@ const Hero = () => {
               otherClasses="gap-3"
               // handleClick={click}
             />
-          </div>
+          </a>
         </div>
       </div>
     </div>
